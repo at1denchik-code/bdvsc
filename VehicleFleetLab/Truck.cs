@@ -4,7 +4,6 @@ using System.Globalization;
 
 namespace VehicleFleetLab
 {
-    // Грузовой автомобиль реализует интерфейс сохранения.
     public class Truck : Vehicle, IStorable
     {
         public double LoadCapacity { get; private set; }
