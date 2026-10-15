@@ -2,7 +2,6 @@ using System;
 
 namespace VehicleFleetLab
 {
-    // Абстрактный базовый класс транспортного средства.
     public abstract class Vehicle
     {
         public string Model { get; private set; }
