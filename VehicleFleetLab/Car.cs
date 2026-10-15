@@ -1,6 +1,5 @@
 namespace VehicleFleetLab
 {
-    // Легковой автомобиль.
     public class Car : Vehicle
     {
         public bool IsElectric { get; private set; }
